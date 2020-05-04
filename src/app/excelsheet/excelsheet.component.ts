@@ -35,6 +35,8 @@ export class ExcelsheetComponent implements OnInit {
 
       console.log(this.data);
 
+      let x = this.data.slice(1);
+      console.log(x);
 
     };
 
